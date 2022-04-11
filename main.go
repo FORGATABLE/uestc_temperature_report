@@ -116,8 +116,6 @@ func DoReport(cookie string, id int) {
 	oneReportMessage := reportMessage{
 		HealthCondition:             "正常",
 		TodayMorningTemperature:     "36°C~36.5°C",
-		YesterdayEveningTemperature: "36°C~36.5°C",
-		YesterdayMiddayTemperature:  "36°C~36.5°C",
 		Location:                    "四川省成都市郫都区银杏大道",
 	}
 	jsons, err := json.Marshal(oneReportMessage)
